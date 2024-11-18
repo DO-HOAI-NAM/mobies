@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!-- Product Name TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomname"
+            android:text="Name :"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <!-- Product Quantity TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomday"
+            android:text="Day :"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomtime"
+            android:text="Time :"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+        <!-- Product Price TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomcapacity"
+            android:text="Capacity :"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+        <!-- Product Price TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomduration"
+            android:text="Duration :"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+        <!-- Product Price TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomprice"
+            android:text="Price :"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+        <!-- Product Price TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomtype"
+            android:text="Type :"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+        <!-- Product Price TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/roomdescription"
+            android:text="Description :"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+        <!-- Product Price TextView -->
+
+        <!-- Delete Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:text="DELETE"
+            android:id="@+id/btnDelete"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"/>
+
+        <!-- Edit Button -->
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#008CBA"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
